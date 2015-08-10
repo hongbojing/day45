@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
   <meta charset="UTF-8">
   <title>day #</title>
@@ -7,7 +7,16 @@
   <link rel="stylesheet" href="css/anotherstyle.css">
 </head>
 <body>
+  <p>Team group one: Lackers, Clippers, Suns</p>
+  <div horizonalink-directive team1="Lackers" team2="Clippers" team3="Suns"></div>
+
+  <p>Team group two: Celtics, Bulls, Pistons</p>
+  <div horizonalink-directive team1="Celtics" team2="Bulls" team3="Pistons"></div>
 
 
+
+  <script src="js/lib/angular/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/directives/horizonalinkDirective.js"></script>
 </body>
 </html>
